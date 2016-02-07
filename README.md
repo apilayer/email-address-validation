@@ -1,2 +1,3 @@
-# email-validation
-Email Validation &amp; Verification JSON API for Developers. Simple REST API measuring email deliverability &amp; quality
+Email Validation & Verification JSON API for Developers. Simple REST API measuring email deliverability & quality
+
+# UNDER DEVELOPMENT
