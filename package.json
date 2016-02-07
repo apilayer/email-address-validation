@@ -1,0 +1,24 @@
+{
+  "name": "email-validation",
+  "version": "0.1.0",
+  "description": "Email Validation &amp; Verification JSON API for Developers. Simple REST API measuring email deliverability &amp; quality",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pmoelgaard@github.com/pmoelgaard/email-validation.git"
+  },
+  "keywords": [
+    "email validation",
+    "email validation api",
+    "email verify api"
+  ],
+  "author": "Peter Andreas Moelgaard <admin@petermolgard.com> (http://petermolgaard.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmoelgaard/email-validation/issues"
+  },
+  "homepage": "https://github.com/pmoelgaard/email-validation#readme"
+}
