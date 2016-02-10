@@ -29,14 +29,10 @@ You can find parameters, result set definitions and status codes documented here
 	var API = require('email-address-validation');
 	var api = new API({
     	access_key: [ACCESS_KEY],
-    	catch_all: [0|1] (Optional, defaults to 1)
     	secure: [true|false] (Optional, defaults to false)
 	});
 
 #### Optional Parameters
-
-##### catch_all (only available for Basic, Pro and Enterprise accounts)
-Boolean value to indicate if checks should also include checks for catch all.
 
 ##### secure (only available for Basic, Pro and Enterprise accounts)
 Boolean value to indicate if the calls to the API should use a secure protocol or insecure (HTTP/HTTPS). Defaults to false (HTTP, insecure).
@@ -65,7 +61,8 @@ Takes an email  and checks the email against the API.
 ###### Define Query
 
 	var query = {
-    	email: 'this.is.a@test.io'
+    	email: 'this.is.a@test.io',
+    	catch_all: [0|1] (Optional, defaults to 1)
 	};
 
 ###### Simple Request (using Callback)
@@ -94,6 +91,11 @@ Takes an email  and checks the email against the API.
   "score": 0.96
 }  
 ```
+
+#### Optional Parameters
+
+##### catch_all (only available for Basic, Pro and Enterprise accounts)
+Boolean value to indicate if checks should also include checks for catch all.
 
 ---
 
