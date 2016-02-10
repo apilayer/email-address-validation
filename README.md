@@ -107,6 +107,13 @@ For running in development environments, it's easy to use the [https://www.npmjs
 
 The tests are written for any NodeJS testing library, but has been run and targeted at the [https://mochajs.org/](https://mochajs.org/) testing library.
 
+In order to run the tests, the following environment variables needs to be set:
+
+```
+ACCESS_KEY = [access_key] (This account needs to be Basic, Pro or Enterprise)
+ACCESS_KEY_FREE = [access_key_for_a_free_account]
+```
+
 ---
 
 ## Customer Support
