@@ -5,7 +5,7 @@ var utils = require('./lib/utils');
 
 /**
  * A module for interacting with mailboxlayer API
- * @module screenshotlayer
+ * @module mailboxlayer
  */
 
 /**
