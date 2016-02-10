@@ -1,5 +1,5 @@
 
-[![Travis](https://travis-ci.org/pmoelgaard/email-address-validation.svg)](Travis)
+[![Travis](https://travis-ci.org/apilayer/email-address-validation.svg)](Travis)
 
 Node JavaScript wrapper for [the mailboxlayer API](https://mailboxlayer.com/).
 
