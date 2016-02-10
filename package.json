@@ -1,6 +1,6 @@
 {
   "name": "email-address-validation",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Email Validation & Verification JSON API for Developers. Simple REST API measuring email deliverability & quality",
   "main": "index.js",
   "scripts": {
