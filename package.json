@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://pmoelgaard@github.com/pmoelgaard/email-address-validation.git"
+    "url": "git+https://github.com/apilayer/email-address-validation.git"
   },
   "keywords": [
     "email validation",
@@ -18,9 +18,9 @@
   "author": "Peter Andreas Moelgaard <admin@petermolgard.com> (http://petermolgaard.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pmoelgaard/email-address-validation/issues"
+    "url": "https://github.com/apilayer/email-address-validation/issues"
   },
-  "homepage": "https://github.com/pmoelgaard/email-address-validation#readme",
+  "homepage": "https://github.com/apilayer/email-address-validation#readme",
   "devDependencies": {
     "mocha": "^2.3.4",
     "chai": "^3.4.1",
